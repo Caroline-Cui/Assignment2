@@ -1,4 +1,5 @@
 Originally, I used two arrays to write my findshortest path method, 
-(path and visited: I store privious string in side the path function and the visited strings in the visited function to store the whole path way from input to output) 
+(path and visited: I store privious string in side the path function and the visited strings in the visited function 
+to store the whole path way from input to output) 
 then I realized that array is too slow since it need to use indexOf function. However this function is very slow, 
 expecially inside a loop. Thus I switch the data structure to hashtable which can be faster.
